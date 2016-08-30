@@ -1,4 +1,3 @@
-https://github.com/YafimK/LR_scenario_repo
 node('VM22290') {
        
       stage 'Checkout'
