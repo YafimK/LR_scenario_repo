@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Content-Length: 322
+Content-Type: text/html
+Content-Location: https://kalimanjaro/WebTours/index.htm
+Last-Modified: Mon, 24 Mar 2008 12:56:54 GMT
+Accept-Ranges: bytes
+ETag: "11844889ae8dc81:a694"
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Date: Mon, 21 Mar 2016 08:41:48 GMT
+

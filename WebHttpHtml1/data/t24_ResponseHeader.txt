@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Server: Microsoft-IIS/6.0
+Set-Cookie: MSO=SID&1458549749; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Sun, 20-Mar-2016 08:42:29 GMT
+X-Powered-By: ASP.NET
+Date: Mon, 21 Mar 2016 08:42:28 GMT
+Connection: close
+

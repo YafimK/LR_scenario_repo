@@ -1,0 +1,52 @@
+  bgcolor="#FFFFFF" link="#330033" alink="#999999" vlink="#666666">
+
+<H2>Fill-Out Form Example #1
+  </h2></font><p>
+</td></tr><!-- BEGIN MAIN BODY -->
+
+<tr><td valign=top>
+
+
+ 
+ 
+This is a very simple fill-out form example. <P>
+ 
+ 
+<FORM METHOD="POST" ACTION="/cgi-bin/post_query.exe">
+ 
+ 
+A single text entry field goes here: <INPUT NAME="entry"> 
+<P> 
+ 
+Note that it has no default value. <P> 
+
+ 
+To submit the query, press this button: <INPUT TYPE="submit" 
+VALUE="Submit Query">. <P> 
+ 
+</FORM> 
+ 
+That's it. <P> 
+ 
+Things you may want to note: <P> 
+ 
+<UL> 
+<LI> Characters like "&amp;", "%", and "$" in the text typed into the 
+     text entry field are automatically escaped (into hex form: a 
+     percent sign followed by a two-digit hex value corresponding to 
+     the ASCII value of the character) when the query is constructed. 
+     For example, the string "&amp;%$" becomes "%26%25%24". 
+<LI> By default, an <CODE>INPUT</CODE> tag corresponds to a text entry 
+     field.  The <CODE>TYPE</CODE> attribute lets you change this -- 
+     the "submit" type indicates a special pushbutton that causes the 
+     query to be submitted when it's pushed.  Other types are 
+     demonstrated in the other examples. 
+<LI> Because this fill-out form contains only a single text entry 
+     field, the query can be submitted by pressing return in the text 
+     entry field (as well as by pressing the "Submit Query" button). 
+</UL> 
+
+<A HREF="cgi_overview.html">Go back to CGI examples homepage</A>;
+<A HREF="example-2.html">Forward to example 2</A>. </body>
+</html>
+

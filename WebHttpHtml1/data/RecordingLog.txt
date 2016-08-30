@@ -1,0 +1,361 @@
+[API Trapper      ( a30:1c64)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1f40:19b8)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (19a4:1920)] Recording in 64-bit mode: C:\Windows\System32\ie4uinit.exe
+[API Trapper      (1d1c:19ec)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (1d1c:1d8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1d1c:1d8c)] Load Network Traffic Analyzers:
+[Network Analyzer (1d1c:1d8c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1d1c:1d8c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1d1c:1d8c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1d1c:1d8c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1d1c:1d8c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1d1c:1d8c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1d1c:1d8c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1d1c:1d8c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1d1c:1de8)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1d8c)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1a30)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1d8c)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1d1c:1a30)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (1d1c:1de8)] "GET /"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Client -> Server @ : 315 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Server -> Client : 2076 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /Images/logo.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Client -> Server @ : 373 bytes (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /Images/ganim5b.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Client -> Server @ : 376 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Server -> Client : 1892 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 6768 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /favicon.ico"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Client -> Server @ : 302 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Server -> Client : 1795 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1b44)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1f40:1b44)] Load Network Traffic Analyzers:
+[Network Analyzer (1f40:1b44)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1f40:1b44)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1f40:1b44)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1f40:1b44)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1f40:1b44)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1f40:1b44)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1f40:1b44)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1f40:1b44)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1f40:1db4)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1af0)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1b44)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1af0)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (1f40:1db4)] "GET http://www.bing.com/favicon.ico"   
+[Network Analyzer (1f40:1db4)]   (Sid:  1) Client -> Server @ : 253 bytes (Service=HTTP)
+[Net An. Warning  (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1f40:1db4)]   (Sid:  1) Server -> Client : 610 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1524)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1524)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  2)  PROXIED!
+[Net An. Warning  (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (1f40:1db4)] "CONNECT go.microsoft.com:443"   
+[Network Analyzer (1f40:1db4)]   (Sid:  2) Client -> Server @ : 227 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1f40:1db4)]   (Sid:  2) Server -> Client : 39 bytes 
+[Net An. Warning  (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:80 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:80   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1f40:1e94)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1f40:1af0)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1af0)] Request Connection: Remote Server @ 16.42.57.11:8080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (1f40:1db4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAAN43VPPQBXGCMiwAAQAA3jc%3D"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 273 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2717 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAAN43VPPQBXGCMiwAAQAA3jc%3D"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 316 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2717 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 178 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5624 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 9552 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 14960 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1014 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 221 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2982 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 3999 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4861 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 611 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 64 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4112 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5408 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5408 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 12176 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 6934 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://crl.microsoft.com/pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 174 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 9520 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 9264 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 7232 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://crl.microsoft.com/pki/mscorp/crl/msitwww2.crl"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 217 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 14861 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4001 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 4048 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2896 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 1296 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 5392 bytes  (Service=HTTP)
+[Net An. Error    (1f40:1e94)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1f40:1b44)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1db4)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1f40:1db4)] "CONNECT go.microsoft.com:443"   
+[Network Analyzer (1f40:1db4)]   (Sid:  4) Client -> Server @ : 227 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  4) Server -> Client : 39 bytes 
+[Network Analyzer (1f40:1be4)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1f40:1be4)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (1f40:1db4)] "GET /fwlink/?LinkId=251136"   
+[Network Analyzer (1f40:1db4)]   (Sid:  4) Client -> Server @ : 266 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  4) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1b44)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1f40:1db4)] "CONNECT ieonline.microsoft.com:443"   
+[Network Analyzer (1f40:1db4)]   (Sid:  5) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  5) Server -> Client : 39 bytes 
+[Network Analyzer (1f40:1b8c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Web Request      (1f40:1db4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAAvZfB78BUUuyP8IAAQAC9l8%3D"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 273 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2717 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAAvZfB78BUUuyP8IAAQAC9l8%3D"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 316 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1d8c)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1db8)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2717 bytes  (Service=HTTP)
+[Net An. Error    (1f40:1b8c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1f40:1b44)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1db4)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (1f40:1b44)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (1f40:1db4)] "CONNECT ieonline.microsoft.com:443"   
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Client -> Server @ : 243 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 39 bytes 
+[Network Analyzer (1f40:1af8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1f40:1af8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (1f40:1db4)] "GET /ie/known_providers_download_v1.xml"   
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 8838 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1524)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1524)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1f40:1db4)] "CONNECT r20swj13mr.microsoft.com:443"   
+[Network Analyzer (1f40:1db4)]   (Sid:  7) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  7) Server -> Client : 39 bytes 
+[Network Analyzer (1f40:18c4)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (1f40:1db4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAA3btA4yf%2FwTvvyMAAQADdu0%3D"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 275 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2717 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQY%2BIWplxzce%2B%2BGCW0BmDyo%2BZ8lVgQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE1oAA3btA4yf%2FwTvvyMAAQADdu0%3D"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 318 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2717 bytes  (Service=HTTP)
+[Net An. Error    (1f40:18c4)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1f40:1524)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:1db4)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (1f40:1524)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (1f40:1db4)] "CONNECT r20swj13mr.microsoft.com:443"   
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Server -> Client : 39 bytes 
+[Network Analyzer (1f40: 6e4)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer (1f40: 6e4)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (1f40:1db4)] "GET /ieblocklist/v1/urlblockindex.bin"   
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Client -> Server @ : 286 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Server -> Client : 455 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Server -> Client : 16 bytes (SSL) (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET /ieblocklist/v1/urlblocklist.bin"   
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Client -> Server @ : 285 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  8) Server -> Client : 424 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1d1c:1db8)] Request Connection: Remote Server @ 16.59.127.14:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (1d1c:1d8c)] Request Connection: Remote Server @ 16.59.127.14:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Web Request      (1f40:1db4)] "GET http://go.microsoft.com/browserconfig.xml"   
+[Network Analyzer (1f40:1db4)]   (Sid:  1) Client -> Server @ : 267 bytes (Service=HTTP)
+[Network Analyzer (1f40:19f8)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:19f8)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1f40:1db4)]   (Sid:  1) Server -> Client : 1376 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://go.microsoft.com/browserconfig.xml"   
+[Network Analyzer (1f40:1db4)]   (Sid:  9) Client -> Server @ : 267 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1f40:1db4)]   (Sid:  9) Server -> Client : 1376 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  9) Connection Terminated (by Client)
+[Web Request      (1d1c:1de8)] "GET /cgi_examples/cgi_overview.html"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Client -> Server @ : 499 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Server -> Client : 2679 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /favicon.ico"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Client -> Server @ : 302 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Server -> Client : 1795 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1d1c:1c04)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1a30)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1c04)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (1d1c:1de8)] "GET /cgi_examples/useful_cgis.html"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1a30)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Server -> Client : 4686 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /cgi_examples/cgi_redir.html"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Client -> Server @ : 525 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Server -> Client : 602 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /cgi-bin/CGI_redir.exe?redir_max=&submit1=Submit+Request"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Client -> Server @ : 551 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Server -> Client : 544 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  3) Connection Terminated (by Server)
+[Web Request      (1f40:1db4)] "GET /iedomainsuggestions/ie11/suggestions.en-US"   
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Client -> Server @ : 269 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 4759 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 8192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 6082 bytes (SSL) (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET /ieflipahead/ie10/rules.xml?mkt=en-US"   
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Client -> Server @ : 403 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  6) Server -> Client : 13674 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1d1c:1d8c)] Request Connection: Remote Server @ 16.59.127.14:443 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (1d1c:1db8)] Request Connection: Remote Server @ 16.59.127.14:443 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer (1f40:19d0)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1f40:19d0)] Request Connection: Remote Server @ 16.42.57.12:8080   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (1f40:1db4)] "GET http://go.microsoft.com/fwlink/?LinkID=401135"   
+[Network Analyzer (1f40:1db4)]   (Sid: 10) Client -> Server @ : 360 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid: 10) Server -> Client : 370 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://ieonline.microsoft.com/s/iess/instrument15.cer"   
+[Network Analyzer (1f40:1db4)]   (Sid: 10) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid: 10) Server -> Client : 543 bytes  (Service=HTTP)
+[Web Request      (1f40:1db4)] "GET http://www.microsoft.com/pkiops/certs/MicSecSerCA2011_2011-10-18.crt"   
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Client -> Server @ : 190 bytes (Service=HTTP)
+[Network Analyzer (1f40:1db4)]   (Sid:  3) Server -> Client : 2302 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Client -> Server @ : 514 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1c04)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1c04)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1d1c:1de8)] "GET /WinRunner/index.html"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Client -> Server @ : 489 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 4380 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 3260 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/index.htm"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Client -> Server @ : 529 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 5774 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/splash_tile.jpg"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 4820 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/splash_key.jpg"   
+[Network Analyzer (1d1c:1df4)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1de8)]   (Sid:  5) Client -> Server @ : 450 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de0)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1a30)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1de8)]   (Sid:  5) Server -> Client : 15469 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1c04)] Address lookup for myd-vm01680 = 16.59.59.61
+[Network Analyzer (1d1c:1df4)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/intern_release.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Client -> Server @ : 454 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de0)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/splash_type.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  6) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 1605 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/now.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  5) Client -> Server @ : 443 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1a30)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1d1c:1de8)]   (Sid:  5) Server -> Client : 2109 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  6) Server -> Client : 1456 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/academy_win.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  7) Client -> Server @ : 451 bytes (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/enter.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Client -> Server @ : 445 bytes (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/bugs.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  5) Client -> Server @ : 444 bytes (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/5555.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  6) Client -> Server @ : 444 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  7) Server -> Client : 3153 bytes  (Service=HTTP)
+[Web Request      (1d1c:1de8)] "GET /WinRunner/Titanic/titanicmovie/images/rating_grey.gif"   
+[Network Analyzer (1d1c:1de8)]   (Sid:  8) Client -> Server @ : 451 bytes (Service=HTTP)
+[Network Analyzer (1d1c:1c04)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1d1c:1de8)]   (Sid:  4) Server -> Client : 823 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  5) Server -> Client : 1825 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  6) Server -> Client : 1899 bytes  (Service=HTTP)
+[Network Analyzer (1d1c:1de8)]   (Sid:  8) Server -> Client : 1396 bytes  (Service=HTTP)

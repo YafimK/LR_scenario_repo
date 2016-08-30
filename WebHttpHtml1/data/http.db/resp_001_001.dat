@@ -1,0 +1,109 @@
+<HTML><HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<TITLE>index</TITLE>
+
+<!--body bgcolor="#FFCd90" text="#000000" link="#0000FF"
+vlink="#800080" alink="#FF0000"--></HEAD>
+<BODY bgcolor="#FFCC99"> <!-- background='Images/wall3.jpg' bgproperties="fixed" -->
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%" valign="top" colspan="2">
+      <p align="center"><font face="Comic Sans MS" size="6" color="#008080">Kalimanjaro
+      - Astra LoadTest QA Site</font></p>
+      <p align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <FONT face='Comic Sans MS'color=#008000 size=4>
+<I>Local Sites:</I></FONT> 
+
+<!--
+<LI><A href="MercuryTours">Mercury Tours</A> and 
+    <A href="MercuryTours/optionDocs.html">Mercury Tours Doc</A> 
+-->
+
+      <ul>
+<!--
+<LI><A href="NewFlights"> New Mercury Tours </A> 
+-->
+
+<LI><A href="WebTours"> New Mercury Tours </A> 
+<LI><A href="hotmail/hotmail.html">HotMail demo.</A> 
+
+    <!-- A href="hotmail/Hotmail%20Test%20Site-%20english%20documentation.doc">Hot mail Readme.</A -->
+
+<LI><A href="Dell_demo/welcome.asp">Dell demo.</A> 
+
+    <!-- A href="Dell_demo/Dell%20Test%20Site%20-%20documentation.doc">Dell Readme.</A --> 
+
+<LI><A href="expedia_demo">Expedia demo.</A> 
+
+    <!-- A href="expedia/EXPEDIA_documentation.doc">Expedia Readme.</A --> 
+
+<LI><A href="Hertz/hertz_com/index.html">Hertz</A> 
+<LI><A href="topaz/loginOrig.asp">Topaz Demo&nbsp;</A> 
+<LI><A href="oldnavylocal/">OldNavy demo&nbsp;</A> 
+    </ul>
+      <p>&nbsp;</p>
+      <FONT color=#008000 face='Comic Sans MS'size=4>
+      <I>&nbsp;&nbsp; New on kalimanjaro:</I></FONT>&nbsp;&nbsp;&nbsp;&nbsp;
+      <A href="NewFlights">
+      <IMG border=0 id=flight_image onmouseout="flight_image.src='Images/logo.gif';" 
+                                    onmouseover="flight_image.src='Images/logo_flipped.gif';" 
+      src="Images/logo.gif" width="50" height="55">
+      </A>&nbsp;&nbsp;&nbsp;&nbsp; 
+      <FONT face='Comic Sans MS'color=#008000 size=4><I>join the flight</I></FONT>&nbsp;
+      <p><A href="topaz/loginOrig.asp"> <!--img border=0 width=100 height=50 src="Images/topaz.gif"--></A> 
+
+      </p>
+      <p>&nbsp;</td>
+    <td width="50%"><FONT face='Comic Sans MS'color=#008000 size=4>
+<I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Useful Pages:</I></FONT>
+<ul>
+  <LI><A href="cgi_examples/cgi_overview.html">All kind of CGI's.</A> 
+  <LI><A href="https://kalimanjaro/index.html">https sites.</A> 
+  <LI><A href="html/index.html">Html TAGs.</A> 
+  <LI><A href="html/links.html">All kind of Links.</A> 
+  <LI><A href="sources/index.htm"> Web objects collection </A></LI>
+  <LI><A href="WinRunner/index.html">WinRunner</A> 
+  <LI><A href="obj_java_script/Index.htm">Objects demo</A> 
+  <LI><A href="Java/java/index.html">Java Examples</A> 
+  <LI><A href="OCX/OCX.HTML">OCX</A> 
+  <LI><A href="ASP/jscript.htm">Java script demos</A> 
+  <LI><A href="active_x/index.html">ActiveX</A> 
+  <LI><A href="Multimedia/index.html">Multimedia</A> 
+  <LI><A href="Foreign/index.htm"> Page with foreign languages</A>
+  <LI><a href="mssoapsamples30/index.htm">WebServices</a>
+  <LI><a href="AMF">AMF</a>
+</ul>
+      <p>&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="middle">&nbsp;
+      <p><FONT face='Comic Sans MS'color=#008000 size=4>
+<I> External sites list for Record/Replay testing :&nbsp;&nbsp;&nbsp;</I></FONT></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</td>
+    <td width="50%" align="center" valign="middle">
+      <p align="left"><A href="external.htm"><IMG border=0 width=109 height=100 src="Images/ganim5b.gif"></A> </td>
+  </tr>
+</table>
+<!--  
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+.<A href="ActiveX/Library/TheWeb/index_books.htm" style="TEXT-DECORATION: none">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</A>
+---->
+<ul>
+<li><A href="XMLs/DXML1/webdev.asp?xsl=list_pp.xsl"> Web Developer References </A>
+<LI><A href="ERP_CRM/ERP/kalimanjaro/erp.htm">ERP information&nbsp;</A>
+<LI><A href="ERP_CRM/CRM/kalimanjaro/crm.htm">CRM information&nbsp;</A>
+<!-- LI><a href="file://zeppo/sqlr_t/erp/sap/SAP_Site/sap.html">SAP - QA links</a -->
+<LI><a href="file://illabstore01.devlab.ad/users/ltqa/sqlr_t/ERP/SAP/SAP_Site/sap.html">SAP - QA links</a>
+<LI><a href="http://dogbert.mercury.co.il/groups/system/dba/Dev_Servers/Dev_Servers_Main.html">
+Mercury Interactive Development Servers (ERP/CRM): </a>
+</ul>
+
+</BODY>
+</HTML>

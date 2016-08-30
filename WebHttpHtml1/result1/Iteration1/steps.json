@@ -1,0 +1,50 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: kalimanjaro.hpeswlab.net",
+        "infFile": "t1.inf",
+        "time": 1465830232877
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Url: cgi_overview.html",
+        "infFile": "t2.inf",
+        "time": 1465830232917
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Link: Link to page of useful CGIs",
+        "infFile": "t3.inf",
+        "time": 1465830233017
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Link: Many redirections CGI",
+        "infFile": "t4.inf",
+        "time": 1465830233057
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Submit Form: CGI_redir.exe",
+        "infFile": "t5.inf",
+        "time": 1465830235313
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Url: kalimanjaro.hpeswlab.net_2",
+        "infFile": "t6.inf",
+        "time": 1465830235353
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Url: index.html",
+        "infFile": "t7.inf",
+        "time": 1465830235465
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Link: Titanic movie.",
+        "infFile": "t8.inf",
+        "time": 1465830235589
+    }
+]

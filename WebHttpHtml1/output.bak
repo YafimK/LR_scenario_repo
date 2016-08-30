@@ -1,0 +1,63 @@
+Virtual User Script started at : 6/13/2016 5:35:24 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 14.0.0 for Windows 7; build 70 (Jun 13 2016 20:10:14)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\LRS\WebHttpHtml1\\default.cfg"  	[MsgId: MMSG-27141]
+Starting to download the proxy automatic configuration script, URL="http://autocache.hpecorp.net/"  	[MsgId: MMSG-27097]
+Proxy automatic configuration script (URL="http://autocache.hpecorp.net/") downloaded and evaluated successfully  	[MsgId: MMSG-27096]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "???????? ??????" started.
+Action.c(6): web_url("kalimanjaro.hpeswlab.net") started  	[MsgId: MMSG-26355]
+Action.c(6): Found resource "http://kalimanjaro.hpeswlab.net/Images/logo.gif" in HTML "http://kalimanjaro.hpeswlab.net/"  	[MsgId: MMSG-26659]
+Action.c(6): Downloading resource "http://www.bing.com/favicon.ico" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(6): Found resource "http://kalimanjaro.hpeswlab.net/Images/ganim5b.gif" in HTML "http://kalimanjaro.hpeswlab.net/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("kalimanjaro.hpeswlab.net") was successful, 95914 body bytes, 1101 header bytes  	[MsgId: MMSG-26386]
+Action.c(17): Notify: Transaction "???????? ??????" ended with a "Pass" status (Duration: 0.1558 Wasted Time: 0.0660).
+Action.c(21): Notify: Transaction "???????? ??????o_CGI" started.
+Action.c(24): web_url("cgi_overview.html") started  	[MsgId: MMSG-26355]
+Action.c(24): web_url("cgi_overview.html") was successful, 2429 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+Action.c(33): web_link("Link to page of useful CGIs") started  	[MsgId: MMSG-26355]
+Action.c(33): Linking to "http://kalimanjaro.hpeswlab.net/cgi_examples/useful_cgis.html", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(33): web_link("Link to page of useful CGIs") was successful, 7355 body bytes, 251 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): web_link("Many redirections CGI") started  	[MsgId: MMSG-26355]
+Action.c(40): Linking to "http://kalimanjaro.hpeswlab.net/cgi_examples/cgi_redir.html", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(40): web_link("Many redirections CGI") was successful, 353 body bytes, 249 header bytes  	[MsgId: MMSG-26386]
+Action.c(45): web_submit_form("CGI_redir.exe") started  	[MsgId: MMSG-26355]
+Action.c(45): Submitting form to "http://kalimanjaro.hpeswlab.net/cgi-bin/CGI_redir.exe", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(45): Downloading resource "https://ieonline.microsoft.com/iedomainsuggestions/ie11/suggestions.en-US" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(45): Downloading resource "https://ieonline.microsoft.com/ieflipahead/ie10/rules.xml?mkt=en-US" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(45): web_submit_form("CGI_redir.exe") was successful, 179354 body bytes, 1983 header bytes  	[MsgId: MMSG-26386]
+Action.c(56): Notify: Transaction "???????? ??????o_CGI" ended with a "Pass" status (Duration: 2.0466 Wasted Time: 1.2184).
+Action.c(61): web_url("kalimanjaro.hpeswlab.net_2") started  	[MsgId: MMSG-26355]
+Action.c(61): Retrieving data from cache for "http://kalimanjaro.hpeswlab.net/"  	[MsgId: MMSG-26558]
+Action.c(61): Resource "http://kalimanjaro.hpeswlab.net/Images/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(61): Resource "http://kalimanjaro.hpeswlab.net/Images/ganim5b.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(61): web_url("kalimanjaro.hpeswlab.net_2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(69): Notify: Transaction "???????? ??????_other" started.
+Action.c(71): web_url("index.html") started  	[MsgId: MMSG-26355]
+Action.c(71): web_url("index.html") was successful, 7390 body bytes, 250 header bytes  	[MsgId: MMSG-26386]
+Action.c(82): web_link("Titanic movie.") started  	[MsgId: MMSG-26355]
+Action.c(82): Linking to "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/splash_tile.jpg" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/splash_key.jpg" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/intern_release.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/splash_type.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/now.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/academy_win.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/enter.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/5555.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/rating_grey.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): Found resource "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/images/bugs.gif" in HTML "http://kalimanjaro.hpeswlab.net/WinRunner/Titanic/titanicmovie/index.htm"  	[MsgId: MMSG-26659]
+Action.c(82): web_link("Titanic movie.") was successful, 53964 body bytes, 2749 header bytes  	[MsgId: MMSG-26386]
+Action.c(87): Notify: Transaction "???????? ??????_other" ended with a "Pass" status (Duration: 0.1289 Wasted Time: 0.0167).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

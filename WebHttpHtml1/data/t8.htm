@@ -1,0 +1,66 @@
+<html><head>
+<title>
+  Fill-Out Form Example #2
+</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#330033" alink="#999999" vlink="#666666">
+
+ 
+<!-- BEGIN PAGE TITLE -->
+  
+</td><td valign=top>
+  <br><br>
+  <font face="arial,helvetica" color="#666666"><h2 align=left>
+Fill-Out Form Example #2
+  </h2></font><p>	
+</td></tr>
+
+
+<!-- BEGIN MAIN BODY -->
+
+
+This is another fill-out form example, with multiple text entry 
+fields. <P> 
+ 
+<p> 
+ 
+<FORM METHOD="POST" ACTION="/cgi-bin/post_query.exe"> 
+ 
+The first text entry field goes here: <INPUT NAME="entry1"> <P> 
+ 
+The second text entry field goes here: <INPUT NAME="entry2"> <P> 
+ 
+The third text entry field goes here: <INPUT NAME="entry3"> <P> 
+ 
+To submit the query, press this button: <INPUT TYPE="submit" 
+VALUE="Submit Query">. <P> 
+ 
+</FORM> 
+ 
+<p> <P> 
+ 
+Things you may want to note: <P> 
+ 
+<UL> 
+<LI> Each text entry field is given a distinct <CODE>NAME</CODE> 
+     attribute. 
+<LI> The query that results from this form looks like this: 
+     "?entry1=blah&amp;entry2=blargh&amp;entry3=blorf" (assuming "blah" 
+     had been typed into the first field, "blargh" into the second, 
+     and "blorf" into the third). 
+<LI> If nothing is typed into any of the fields, the corresponding 
+     "name=value" pairs will still be present in the query, with the 
+     value simply absent.  So, if you type "blah" into the first field 
+     and "blorf" into the third but nothing into the second, the query 
+     is "?entry1=blah&amp;entry2=&amp;entry3=blorf". 
+</UL> 
+ 
+<A HREF="example-1.html">Back to example 1</A> or <A 
+HREF="example-3.html">forward to example 3</A>. <P> 
+  <p>
+
+
+</body>
+</html>
+

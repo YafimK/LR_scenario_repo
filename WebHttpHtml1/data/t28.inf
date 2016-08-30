@@ -1,0 +1,17 @@
+[t28]
+FileName1=t28.htm
+URL1=http://kalimanjaro.hpeswlab.net/
+Total=4
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_28.xml
+FileName2=t28_logo.gif
+URL2=http://kalimanjaro.hpeswlab.net/Images/logo.gif
+FileName3=t28_ganim5b.gif
+URL3=http://kalimanjaro.hpeswlab.net/Images/ganim5b.gif
+FileName4=t28_favicon.ico
+URL4=http://www.bing.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb
