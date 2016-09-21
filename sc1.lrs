@@ -14,7 +14,7 @@ GlobalDir=
 }
 
 {ScenarioPrivateConfig
-Path=C:\HAR\HAR\Scenario1.lrs
+Path=.\sc1.lrs
 Author=pekel
 Subject=Scenario1
 Description=
