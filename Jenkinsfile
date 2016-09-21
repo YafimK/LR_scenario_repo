@@ -8,7 +8,7 @@ node('VM22290') {
       stage 'Run performance test - sc4.lrs'
 	def sc4_path = pwd() + "\\sc4.lrs"
 	echo sc4_path
-      lrScenarioLoad controllerRunPollingInterval: '30', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', runTimeout: '900', testPaths: sc4_path
+      lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', runTimeout: '900', testPaths: sc4_path
 
         stage 'Run performance test - sc3.lrs'
 	
@@ -16,7 +16,7 @@ node('VM22290') {
 	
 	echo sc3_path
       
-	lrScenarioLoad controllerRunPollingInterval: '30', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', runTimeout: '900', testPaths: sc3_path
+	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', runTimeout: '900', testPaths: sc3_path
 
         stage 'Run performance test - sc1.lrs'
 	
@@ -24,7 +24,7 @@ node('VM22290') {
 	
 	echo sc1_path
       
-	lrScenarioLoad controllerRunPollingInterval: '30', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', runTimeout: '900', testPaths: sc1_path
+	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', runTimeout: '900', testPaths: sc1_path
 
         stage 'Run performance test - sc5.lrs'
 	
@@ -32,5 +32,5 @@ node('VM22290') {
 	
 	echo sc5_path
       
-	lrScenarioLoad controllerRunPollingInterval: '30', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', runTimeout: '900', testPaths: sc5_path
+	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', runTimeout: '900', testPaths: sc5_path
 }
