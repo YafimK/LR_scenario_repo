@@ -1,7 +1,7 @@
 Action()
 {
 
-	lr_start_transaction("טרנזקציה_ראשונה");
+	lr_start_transaction("First_Trans");
 
 		web_url("kalimanjaro.hpeswlab.net", 
 		"URL=http://kalimanjaro.hpeswlab.net/", 
@@ -14,11 +14,11 @@ Action()
 		"Url=http://www.bing.com/favicon.ico", "Referer=", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("טרנזקציה_ראשונה", LR_AUTO);
+	lr_end_transaction("First_Trans", LR_AUTO);
 
 
 	lr_think_time(10);
-lr_start_transaction("טרנזקציה_CGI");
+lr_start_transaction("CGI");
 
 		
 	web_url("cgi_overview.html", 
@@ -53,7 +53,7 @@ lr_start_transaction("טרנזקציה_CGI");
 		LAST);
 
 
-	lr_end_transaction("טרנזקציה_CGI", LR_AUTO);
+	lr_end_transaction("CGI", LR_AUTO);
 
 
 	lr_think_time(5);
@@ -66,7 +66,7 @@ lr_start_transaction("טרנזקציה_CGI");
 		"Mode=HTML", 
 		LAST);
 
-	lr_start_transaction("טרנזקציה_other");
+	lr_start_transaction("Trans_other");
 
 		web_url("index.html", 
 		"URL=http://kalimanjaro.hpeswlab.net/WinRunner/index.html", 
@@ -84,8 +84,7 @@ lr_start_transaction("טרנזקציה_CGI");
 		"Snapshot=t37.inf", 
 		LAST);
 
-	lr_end_transaction("טרנזקציה_other", LR_AUTO);
-
+	lr_end_transaction("Trans_other", LR_AUTO);
 
 	return 0;
 }
