@@ -9,5 +9,5 @@ node('VM22290') {
 	
 	echo sc3_path
       
-	lrScenarioLoad controllerRunPollingInterval: '30', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', runTimeout: '900', testPaths: sc3_path
+	lrScenarioLoad controllerRunPollingInterval: '30', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', fsTimeout: '900', testPaths: sc3_path
 }
