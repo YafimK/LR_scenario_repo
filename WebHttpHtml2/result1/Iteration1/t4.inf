@@ -1,0 +1,20 @@
+[t4]
+FileName2=t1_2_logo.gif
+RawStepEndTime=1476351236161
+FileName4=t1_0_ganim5b.gif
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=Many redirections CGI
+ContentType=text/html
+URL1=http://kalimanjaro.hpeswlab.net/cgi_examples/cgi_redir.html
+URL2=http://kalimanjaro.hpeswlab.net/Images/logo.gif
+URL3=http://www.bing.com/favicon.ico
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=http://kalimanjaro.hpeswlab.net/Images/ganim5b.gif
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t4_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1476351236140
+Total=4
+StepName=Link: Many redirections CGI
+FileName1=t4.html
+FileName3=t1_1_favicon.ico

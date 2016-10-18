@@ -1,0 +1,20 @@
+[t3]
+FileName2=t1_2_logo.gif
+RawStepEndTime=1476351236111
+FileName4=t1_0_ganim5b.gif
+RequestBodyFile=t3_RequestBody.txt
+RawStepName=Link to page of useful CGIs
+ContentType=text/html
+URL1=http://kalimanjaro.hpeswlab.net/cgi_examples/useful_cgis.html
+URL2=http://kalimanjaro.hpeswlab.net/Images/logo.gif
+URL3=http://www.bing.com/favicon.ico
+ResponseHeaderFile=t3_ResponseHeader.txt
+URL4=http://kalimanjaro.hpeswlab.net/Images/ganim5b.gif
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t3_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1476351236094
+Total=4
+StepName=Link: Link to page of useful CGIs
+FileName1=t3.html
+FileName3=t1_1_favicon.ico
