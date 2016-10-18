@@ -36,7 +36,7 @@ node('Win10') {
 	}
 	
     stage ('Run performance test - sc6.lrs'){
-	def sc5_path = pwd() + "\\sc6.lrs"
+	def sc6_path = pwd() + "\\sc6.lrs"
 	echo sc6_path
 	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', fsTimeout: '900', testPaths: sc6_path
 	}
