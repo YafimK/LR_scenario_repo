@@ -1,20 +1,20 @@
 node('Win10') {
        
-    stage('Checkout'){}
-       checkout scm
+    stage('Checkout'){
+    	checkout scm
 	}
 	
 	def dir
-	stage('SetPWD')
+    stage('SetPWD')
 	{
-		dir	= pwd()
-		echo dir
+	  dir = pwd()
+	  echo dir
 	}
 
-	stage('Run performance test - sc4.lrs'){
+    stage('Run performance test - sc4.lrs'){
 	def sc4_path = pwd() + "\\sc4.lrs"
 	echo sc4_path
-    lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', fsTimeout: '900', testPaths: sc4_path
+    	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', fsTimeout: '900', testPaths: sc4_path
 	}
 	
     stage('Run performance test - sc3.lrs'){
@@ -35,7 +35,7 @@ node('Win10') {
 	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', fsTimeout: '900', testPaths: sc5_path
 	}
 	
-	stage ('Run performance test - sc6.lrs'){
+    stage ('Run performance test - sc6.lrs'){
 	def sc5_path = pwd() + "\\sc6.lrs"
 	echo sc6_path
 	lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '10', fsTimeout: '900', testPaths: sc6_path
