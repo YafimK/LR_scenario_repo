@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.htm
+URL1=https://kalimanjaro/index.html
+Total=3
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_logo.gif
+URL2=https://kalimanjaro/Images/logo.gif
+FileName3=t2_ganim5b.gif
+URL3=https://kalimanjaro/Images/ganim5b.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

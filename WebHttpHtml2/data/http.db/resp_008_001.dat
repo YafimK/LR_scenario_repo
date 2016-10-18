@@ -1,0 +1,55 @@
+<html><head>
+<title>
+  Fill-Out Form Example #5
+</title>
+</head>
+
+<body bgcolor="#FFFFFF" link="#330033" alink="#999999" vlink="#666666">
+
+ 
+<!-- BEGIN PAGE TITLE -->
+  
+  <br><br>
+  <font face="arial,helvetica" color="#666666"><h2 align=left>
+Fill-Out Form Example #5
+  </h2></font><p>	
+
+
+<!-- BEGIN MAIN BODY -->
+
+ 
+This is another fill-out form example, with various text entry field 
+attributes demonstrated. <P> 
+ 
+<p> 
+ 
+<FORM METHOD="POST" ACTION="/cgi-bin/post_query.exe"> 
+ 
+The first text entry field has no special attributes: <INPUT 
+NAME="entry1"> <P> 
+ 
+The second text entry field is twice as long (displays up to 40 
+characters, instead of the default 20): <INPUT SIZE=40 NAME="entry2"> 
+<P> 
+ 
+Each of the first two text entry fields can hold as many characters as 
+the user wishes to type (into the millions).  The following text entry 
+field, however, is limited to five characters, and beeps when the user 
+tries to enter more: <INPUT SIZE=5 MAXLENGTH=5 NAME="entry3"> <P> 
+ 
+To submit the query, press this button: <INPUT TYPE="submit" 
+VALUE="Submit Query">.   <P> 
+ 
+To clear the form, press this button: <INPUT TYPE="reset" VALUE="Clear Form">. 
+ 
+</FORM> 
+ 
+<p> <P> 
+ 
+<A HREF="example-4.html">Back to example 4</A> or <A 
+HREF="example-6.html">forward to example 6</A>. <P> 
+  <p>
+
+</body>
+</html>
+

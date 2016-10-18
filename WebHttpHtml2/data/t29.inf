@@ -1,0 +1,15 @@
+[t29]
+FileName1=t29_known_providers_download_v1.xml
+URL1=https://ieonline.microsoft.com/ie/known_providers_download_v1.xml
+Total=3
+ContentType=text/xml
+SnapshotXmlFile=snapshot_29.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+FileName2=t29_urlblockindex.html
+URL2=https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblockindex.bin
+FileName3=t29_urlblocklist.html
+URL3=https://r20swj13mr.microsoft.com/ieblocklist/v1/urlblocklist.bin
+[ProtocolInfo]
+ProtocolId=QTWeb

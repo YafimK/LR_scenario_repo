@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32.htm
+URL1=http://kalimanjaro.hpeswlab.net/cgi_examples/cgi_redir.html
+Total=1
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_32.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
