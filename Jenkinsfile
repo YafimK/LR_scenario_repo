@@ -15,6 +15,9 @@ node('Win10') {
 	echo sc6_path
     	stage('Run performance test - sc6.lrs')
 	{
-		lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', fsTimeout: '600', testPaths: sc6_path
+ 	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', controllerPollingInterval: '25', fsTimeout: '1800', ignoreErrorStrings: '''Error vuser failed
+        Error vuser abort
+        Step Timeout caused by resources is a warning''', perScenarioTimeOut: '25', testPaths: '''C:\\LR_scenario_repo\\sc6.lrs'''        
+            
 	}
 }
