@@ -14,6 +14,6 @@ node('Win10') {
 	echo sc5_path
     	stage('Run performance test - sc5.lrs')
 	{
-		lrScenarioLoad controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', fsTimeout: '600', testPaths: sc5_path
+		loadRunnerTest controllerRunPollingInterval: '15', ignoreErrorStrings: '', perScenarioRunTimeOut: '15', fsTimeout: '600', testPaths: sc5_path
 	}
 }
