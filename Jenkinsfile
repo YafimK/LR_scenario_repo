@@ -1,4 +1,4 @@
-node('Win10') {
+node('LR_node') {
        
     stage('Checkout'){
     	checkout scm
@@ -40,6 +40,6 @@ node('Win10') {
 	echo sc6_path
  loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', controllerPollingInterval: '25', fsTimeout: '1800', ignoreErrorStrings: '''Error vuser failed
         Error vuser abort
-        Step Timeout caused by resources is a warning''', perScenarioTimeOut: '25', testPaths: '''C:\\LR_scenario_repo\\sc6.lrs'''        
+        Step Timeout caused by resources is a warning''', perScenarioTimeOut: '25', testPaths: '''C:\\LRS\\sc6.lrs'''        
             	}
 }
