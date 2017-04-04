@@ -1,45 +1,31 @@
-node('LR_node') {
-       
-    stage('Checkout'){
-    	checkout scm
-	}
-	
-	def dir
-    stage('SetPWD')
-	{
-	  dir = pwd()
-	  echo dir
-	}
+node('LR_NODE') {
 
-    stage('Run performance test - sc4.lrs'){
-	def sc4_path = pwd() + "\\sc4.lrs"
-	echo sc4_path
-		loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', testPaths: sc4_path
+def testData = pwd()+"\\testData"
+def sc1Path
+def sc2Path
+
+stage('Checkout test data'){
+    dir (testData) {
+		checkout scm
+		sc1Path = testData + "\\Jenkins_scenario1.lrs"
+		sc2Path = testData + "\\Jenkins_scenario2.lrs"
+		echo "Test data dir : " + testData + "\nScenario 1 dir: " + sc1Path + "\nScenario 2 dir: " + sc2Path
 	}
-	
-    stage('Run performance test - sc3.lrs'){
-	def sc3_path = pwd() + "\\sc3.lrs"
-	echo sc3_path
-	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', testPaths: sc3_path
+	bat 'start "Demo400 Terminal Server" "%LR_PATH%bin\\demo400.exe"'
+}
+
+stage('PerfTest_Scenario1') {
+	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', fsTimeout: '2500', ignoreErrorStrings: 'Error: CPU usage for this load generator has exceeded 80%', perScenarioTimeOut: '20', testPaths: sc1Path
+}
+
+stage('PerfTest_Scenario2') {
+	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', fsTimeout: '1500', ignoreErrorStrings: 'Error: CPU usage for this load generator has exceeded 80%', perScenarioTimeOut: '20', testPaths: sc2Path
+}
+
+stage('Cleanup environment') {
+	dir (testData) {
+	    deleteDir()
 	}
-	
-    stage('Run performance test - sc1.lrs'){
-	def sc1_path = pwd() + "\\sc1.lrs"
-	echo sc1_path
-	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', testPaths: sc1_path
-	}
-	
-    stage('Run performance test - sc5.lrs'){
-	def sc5_path = pwd() + "\\sc5.lrs"
-	echo sc5_path
-	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', testPaths: sc5_path
-	}
-	
-    stage ('Run performance test - sc6.lrs'){
-	def sc6_path = pwd() + "\\sc6.lrs"
-	echo sc6_path
- 	loadRunnerTest archiveTestResultsMode: 'PUBLISH_HTML_REPORT', ignoreErrorStrings: '''Error vuser failed
-        Error vuser abort
-        Step Timeout caused by resources is a warning''', testPaths: '''C:\\LRS\\sc6.lrs'''        
-            	}
+	bat 'taskkill /f /im demo400.exe'
+}
 }

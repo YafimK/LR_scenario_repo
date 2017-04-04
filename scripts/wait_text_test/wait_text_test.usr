@@ -1,0 +1,62 @@
+[General]
+Type=RTE
+DefaultCfg=default.cfg
+MajorVersion=14
+MinorVersion=0
+ParameterFile=wait_text_test.prm
+GlobalParameterFile=
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=14.0.0.68
+ActiveTypes=RTE
+AdditionalTypes=RTE
+GenerateTypes=RTE
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=12.53.0.1155
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action1=Action1.c
+vuser_end=vuser_end.c
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[Modified Actions]
+vuser_init=0
+Action1=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action1=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action1=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action1=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="TE_connect__*delimiter*__TE_find_text__*delimiter*__TE_disconnect"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[ExtraFiles]
+termset.ptc=
+termset.ptk=
+termset.pts=
+[Transactions]
+TE_connect=
+TE_find_text=
+TE_disconnect=

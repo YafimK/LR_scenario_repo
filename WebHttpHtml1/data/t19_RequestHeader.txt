@@ -1,7 +1,0 @@
-GET /WebTours/ HTTP/1.1
-User-Agent: Mozilla/4.0 (Windows Server 2012 6.2) Java/1.7.0_67
-Host: kalimanjaro
-Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
-Connection: keep-alive
-Cookie: MSO=SID&1458549659; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
-

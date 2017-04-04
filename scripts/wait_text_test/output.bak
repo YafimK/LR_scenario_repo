@@ -1,0 +1,53 @@
+Virtual User Script started at : 6/9/2016 8:27:33 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action1.
+Connect succeeded on try 1: comm-type = tn5250;host-name = localhost;telnet-port = 9000;device-name = ;user-name = ;password = ;security-type = unsecured;terminal-type = 5250 display;terminal-model = 3477-fc;login-command-file = ;terminal-setup-file = ;.
+TE_wait_text:  pattern = User
+TE_type:  typed text = dummy_text<kReturn>
+Action1.c(34): lr_think_time: 2.00 seconds.
+Action1.c(35): row = 6; col = 17
+Ending action Action1.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action1.
+Connect succeeded on try 1: comm-type = tn5250;host-name = localhost;telnet-port = 9000;device-name = ;user-name = ;password = ;security-type = unsecured;terminal-type = 5250 display;terminal-model = 3477-fc;login-command-file = ;terminal-setup-file = ;.
+TE_wait_text:  pattern = Password
+TE_type:  typed text = dummy_text<kReturn>
+Action1.c(34): lr_think_time: 2.00 seconds.
+Action1.c(35): row = 7; col = 17
+Ending action Action1.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action1.
+Connect succeeded on try 1: comm-type = tn5250;host-name = localhost;telnet-port = 9000;device-name = ;user-name = ;password = ;security-type = unsecured;terminal-type = 5250 display;terminal-model = 3477-fc;login-command-file = ;terminal-setup-file = ;.
+TE_wait_text:  pattern = Program
+TE_type:  typed text = dummy_text<kReturn>
+Action1.c(34): lr_think_time: 2.00 seconds.
+Action1.c(35): row = 8; col = 17
+Ending action Action1.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action1.
+Connect succeeded on try 1: comm-type = tn5250;host-name = localhost;telnet-port = 9000;device-name = ;user-name = ;password = ;security-type = unsecured;terminal-type = 5250 display;terminal-model = 3477-fc;login-command-file = ;terminal-setup-file = ;.
+TE_wait_text:  pattern = Menu
+TE_type:  typed text = dummy_text<kReturn>
+Action1.c(34): lr_think_time: 2.00 seconds.
+Action1.c(35): row = 9; col = 17
+Ending action Action1.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action1.
+Connect succeeded on try 1: comm-type = tn5250;host-name = localhost;telnet-port = 9000;device-name = ;user-name = ;password = ;security-type = unsecured;terminal-type = 5250 display;terminal-model = 3477-fc;login-command-file = ;terminal-setup-file = ;.
+TE_wait_text:  pattern = Current library
+TE_type:  typed text = dummy_text<kReturn>
+Action1.c(34): lr_think_time: 2.00 seconds.
+Action1.c(35): row = 10; col = 17
+Ending action Action1.
+Ending iteration 5.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

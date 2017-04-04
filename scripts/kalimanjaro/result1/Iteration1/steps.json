@@ -1,0 +1,62 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: kalimanjaro.hpeswlab.net",
+        "infFile": "t1.inf",
+        "time": 1465485981404
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Link: All kind of Links.",
+        "infFile": "t2.inf",
+        "time": 1465485983273
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Link: Go to index page",
+        "infFile": "t3.inf",
+        "time": 1465485983461
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Link: All kind of CGI's.",
+        "infFile": "t4.inf",
+        "time": 1465485983651
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Link: Example 1",
+        "infFile": "t5.inf",
+        "time": 1465485983854
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Link: Forward to example 2",
+        "infFile": "t6.inf",
+        "time": 1465485984390
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Submit Form: post_query.exe",
+        "infFile": "t7.inf",
+        "time": 1465485985604
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Url: kalimanjaro.hpeswlab.net_2",
+        "infFile": "t8.inf",
+        "time": 1465485985642
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Url: index.html",
+        "infFile": "t9.inf",
+        "time": 1465485985974
+    },
+    {
+        "stepId": "STEP10",
+        "stepName": "Link: Titanic movie.",
+        "infFile": "t10.inf",
+        "time": 1465485987684
+    }
+]

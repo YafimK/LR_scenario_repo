@@ -1,0 +1,62 @@
+Virtual User Script started at : 12/3/2016 6:15:33 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations\TestFolder
+Action.c(39): Notify: Transaction "open_file" started.
+Action.c(46): Notify: Transaction "open_file" ended with a "Pass" status (Duration: 0.0007).
+Action.c(49): Notify: Transaction "print_to_file" started.
+Action.c(56): Notify: Transaction "print_to_file" ended with a "Pass" status (Duration: 0.0005).
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations\TestFolder
+Action.c(65): Notify: Transaction "delete_file" started.
+Action.c(68): File testFileIO.txt removed.
+Action.c(72): Notify: Transaction "delete_file" ended with a "Pass" status (Duration: 0.0010).
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations
+Action.c(77): Notify: Transaction "next_bool" started.
+Random boolean is false
+Action.c(85): Notify: Transaction "next_bool" ended with a "Pass" status (Duration: 0.0001).
+Long long value = 5223372
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations\TestFolder
+Action.c(39): Notify: Transaction "open_file" started.
+Action.c(46): Notify: Transaction "open_file" ended with a "Pass" status (Duration: 0.0003).
+Action.c(49): Notify: Transaction "print_to_file" started.
+Action.c(56): Notify: Transaction "print_to_file" ended with a "Pass" status (Duration: 0.0009).
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations\TestFolder
+Action.c(65): Notify: Transaction "delete_file" started.
+Action.c(68): File testFileIO.txt removed.
+Action.c(72): Notify: Transaction "delete_file" ended with a "Pass" status (Duration: 0.0015).
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations
+Action.c(77): Notify: Transaction "next_bool" started.
+Random boolean is false
+Action.c(85): Notify: Transaction "next_bool" ended with a "Pass" status (Duration: 0.0003).
+Long long value = 5223372
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations\TestFolder
+Action.c(39): Notify: Transaction "open_file" started.
+Action.c(46): Notify: Transaction "open_file" ended with a "Pass" status (Duration: 0.0006).
+Action.c(49): Notify: Transaction "print_to_file" started.
+Action.c(56): Notify: Transaction "print_to_file" ended with a "Pass" status (Duration: 0.0009).
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations\TestFolder
+Action.c(65): Notify: Transaction "delete_file" started.
+Action.c(68): File testFileIO.txt removed.
+Action.c(72): Notify: Transaction "delete_file" ended with a "Pass" status (Duration: 0.0019).
+Action.c(101): Current working directory: c:\test\perftest\scripts\different_operations
+Action.c(77): Notify: Transaction "next_bool" started.
+Random boolean is false
+Action.c(85): Notify: Transaction "next_bool" ended with a "Pass" status (Duration: 0.0003).
+Long long value = 5223372
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

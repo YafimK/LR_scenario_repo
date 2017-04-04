@@ -1,0 +1,15 @@
+
+[]
+comm-type = tn5250
+host-name = localhost
+telnet-port = 9000
+device-name = 
+message-queue = QSYSOPR
+message-library = *LIBL
+user-name = 
+password = 
+security-type = unsecured
+terminal-type = 5250 display
+terminal-model = 3477-fc
+login-command-file = 
+terminal-setup-file = 

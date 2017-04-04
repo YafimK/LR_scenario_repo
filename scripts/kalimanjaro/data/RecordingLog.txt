@@ -1,0 +1,255 @@
+[API Trapper      (17b8:1440)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( 19c:14a0)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( 824: 140)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 824:10e4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 824:10e4)] Load Network Traffic Analyzers:
+[Network Analyzer ( 824:10e4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 824:10e4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer ( 824:10e4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 824:10e4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer ( 824:10e4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer ( 824:10e4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 824:10e4)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 824:10e4)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 824:1544)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:10e4)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824: edc)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:10e4)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 824: edc)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 824:1544)] "GET /"   
+[Network Analyzer ( 824:1544)]   (Sid:  2) Client -> Server @ : 278 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 916 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /Images/logo.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 349 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /Images/ganim5b.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  2) Client -> Server @ : 352 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 532 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 14960 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 6736 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 13888 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /favicon.ico"   
+[Network Analyzer ( 824:1544)]   (Sid:  2) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Server -> Client : 435 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  2) Connection Terminated (by Client)
+[Web Request      ( 824:1544)] "GET /html/links.html"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 336 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1470)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:10dc)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:10e4)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824: edc)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:103c)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 2047 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1470)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 824:1544)] "GET /images/new.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  3) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer ( 824:10dc)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      ( 824:1544)] "GET /images/home_logo.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  4) Client -> Server @ : 369 bytes (Service=HTTP)
+[Network Analyzer ( 824: edc)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 824:1544)] "GET /images/book%20image.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /images/air_head2.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  5) Client -> Server @ : 369 bytes (Service=HTTP)
+[Network Analyzer ( 824:103c)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 158 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /images/One_Green_Balloon.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  6) Client -> Server @ : 377 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /images/beige.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  3) Client -> Server @ : 365 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 1256 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 931 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /Images/Folder_with_long_128_characters_path_level_1/Folder_with_long_128_characters_path_level_2/Folder_with_long_128_characters_path_level_3/Folder_with_long_128_characters_path_level_4/photo.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 545 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /non_existing_path/astra_box.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  5) Client -> Server @ : 380 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 2720 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /html/butt_ast.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  3) Client -> Server @ : 366 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 435 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /images/sneak.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  5) Client -> Server @ : 365 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 204 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /images/n_spheres.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  4) Client -> Server @ : 369 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 702 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 687 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 4479 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 4093 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 2392 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /favicon.ico"   
+[Network Analyzer ( 824:1544)]   (Sid:  4) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Server -> Client : 435 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  4) Connection Terminated (by Client)
+[Web Request      ( 824:1544)] "GET /index.html"   
+[Network Analyzer ( 824:1544)]   (Sid:  6) Client -> Server @ : 346 bytes (Service=HTTP)
+[Network Analyzer ( 824:10e4)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 3574 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /cgi_examples/cgi_overview.html"   
+[Network Analyzer ( 824:1544)]   (Sid:  7) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1319 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /cgi_examples/example-1.html"   
+[Network Analyzer ( 824:1544)]   (Sid:  3) Client -> Server @ : 378 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 510 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /cgi_examples/example-2.html"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 375 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 604 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "POST /cgi-bin/post_query.exe"   
+[Network Analyzer ( 824:1544)]   (Sid:  5) Client -> Server @ : 488 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Server -> Client : 322 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer ( 19c:1260)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 19c:1260)] Load Network Traffic Analyzers:
+[Network Analyzer ( 19c:1260)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 19c:1260)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 19c:1260)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 19c:1260)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 19c:1260)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Net An. Error    ( 19c:1260)]     - Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Failed to Load!
+[Network Analyzer ( 19c:1260)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 19c:1260)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 19c:1520)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 19c:1260)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 19c:1260)] Request Connection: Remote Server @ 65.55.252.93:443   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      ( 824:1544)] "GET /"   
+[Network Analyzer ( 824:1544)]   (Sid:  6) Client -> Server @ : 366 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer ( 19c: b10)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer ( 19c: b10)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 19c:1294)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 19c:1294)] Request Connection: Remote Server @ 184.30.192.238:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 824:1544)] "GET /WinRunner/index.html"   
+[Network Analyzer ( 824:1544)]   (Sid:  7) Client -> Server @ : 341 bytes (Service=HTTP)
+[Web Request      ( 19c:1520)] "GET /pkiops/crl/MicSecSerCA2011_2011-10-18.crl"   
+[Network Analyzer ( 19c:1520)]   (Sid:  2) Client -> Server @ : 159 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 840 bytes  (Service=HTTP)
+[Network Analyzer ( 19c:1520)]   (Sid:  2) Server -> Client : 1330 bytes  (Service=HTTP)
+[Web Request      ( 19c:1520)] "GET /pkiops/crl/MicSecSerCA2011_2011-10-18.crl"   
+[Network Analyzer ( 19c:1520)]   (Sid:  2) Client -> Server @ : 202 bytes (Service=HTTP)
+[Network Analyzer ( 19c:1520)]   (Sid:  2) Server -> Client : 1330 bytes  (Service=HTTP)
+[Network Analyzer ( 19c:1520)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 19c: a84)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 19c: a84)] Request Connection: Remote Server @ 65.55.252.93:443   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/index.htm"   
+[Network Analyzer ( 824:1544)]   (Sid:  7) Client -> Server @ : 381 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 4414 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/splash_tile.jpg"   
+[Network Analyzer ( 824:1544)]   (Sid:  7) Client -> Server @ : 427 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/intern_release.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 430 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/splash_type.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  3) Client -> Server @ : 427 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/splash_key.jpg"   
+[Network Analyzer ( 824:1544)]   (Sid:  6) Client -> Server @ : 426 bytes (Service=HTTP)
+[Network Analyzer ( 824:10dc)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:1470)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:1544)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 824: edc)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1605 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:10dc)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/now.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 419 bytes (Service=HTTP)
+[Network Analyzer ( 824:1470)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/academy_win.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  8) Client -> Server @ : 427 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/enter.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  9) Client -> Server @ : 421 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824: edc)] Request Connection: Remote Server @ 16.44.49.218:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 824:1544)]   (Sid:  9) Server -> Client : 823 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 2109 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/splash_tile.jpg"   
+[Network Analyzer ( 824:1544)]   (Sid: 10) Client -> Server @ : 427 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/5555.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  9) Client -> Server @ : 420 bytes (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/rating_grey.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  1) Client -> Server @ : 427 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  8) Server -> Client : 433 bytes  (Service=HTTP)
+[Web Request      ( 824:1544)] "GET /WinRunner/Titanic/titanicmovie/images/bugs.gif"   
+[Network Analyzer ( 824:1544)]   (Sid:  8) Client -> Server @ : 420 bytes (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  1) Server -> Client : 1396 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  8) Server -> Client : 465 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid: 10) Server -> Client : 740 bytes  (Service=HTTP)
+[Network Analyzer ( 824: ad4)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824:103c)] Address lookup for LR-Win10x64 = 16.29.1.236
+[Network Analyzer ( 824: ad4)] Request Connection: Remote Server @ 13.107.5.80:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( 824:1544)] "GET /qsml.aspx?query=http%3A%2F%2Fkalimanjaro.hpeswlab.net%2F&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US"   
+[Network Analyzer ( 824:1544)]   (Sid: 11) Client -> Server @ : 558 bytes (Service=HTTP)
+[Network Analyzer ( 824:103c)] Request Connection: Remote Server @ 13.107.5.80:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 824:1544)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  9) Server -> Client : 539 bytes  (Service=HTTP)
+[Network Analyzer ( 19c: db8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES256-SHA)
+[Network Analyzer ( 19c: db8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer ( 824:1544)]   (Sid: 11) Server -> Client : 795 bytes  (Service=HTTP)
+[Network Analyzer ( 19c:1520)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  3) Server -> Client : 2880 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer ( 824:1544)]   (Sid:  6) Connection Terminated (by Client)

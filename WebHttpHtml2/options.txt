@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\LRS\WebHttpHtml2
--IC:\Program Files (x86)\HP\LoadRunner\include
--ec:\lrs\webhttphtml2\\logfile.log
-c:\lrs\webhttphtml2\\combined_WebHttpHtml2.c
-c:\lrs\webhttphtml2\\pre_cci.c

@@ -1,7 +1,0 @@
-HTTP/1.1 200 OK
-Content-Type: text/html; charset=ISO-8859-1
-Server: Microsoft-IIS/6.0
-X-Powered-By: ASP.NET
-Date: Mon, 21 Mar 2016 08:41:12 GMT
-Connection: close
-

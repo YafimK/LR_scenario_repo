@@ -1,0 +1,11 @@
+POST /cgi-bin/post_query.exe HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://kalimanjaro.hpeswlab.net/cgi_examples/example-2.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Accept: */*
+Connection: Keep-Alive
+Host: kalimanjaro.hpeswlab.net
+Content-Length: 23
+

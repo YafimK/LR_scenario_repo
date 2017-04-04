@@ -1,0 +1,31 @@
+Virtual User Script started at : 6/9/2016 8:29:24 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action1.
+Action1.c(10): Notify: Transaction "TE_connect" started.
+Connect succeeded on try 1: comm-type = tn5250;host-name = localhost;telnet-port = 9000;device-name = ;user-name = ;password = ;security-type = unsecured;terminal-type = 5250 display;terminal-model = 3477-fc;login-command-file = ;terminal-setup-file = ;.
+Action1.c(28): Notify: Transaction "TE_connect" ended with a "Pass" status (Duration: 2.9461).
+TE_wait_text:  pattern = User
+Action1.c(35): lr_think_time: 10.00 seconds.
+Action1.c(37): Notify: Transaction "TE_find_text" started.
+TE_type:  typed text = dummy_text<kReturn>
+Action1.c(43): lr_think_time: 2.00 seconds.
+Action1.c(44): row = 6; col = 17
+Action1.c(50): Notify: Transaction "TE_find_text" ended with a "Pass" status (Duration: 3.0032 Think Time: 2.9997).
+Action1.c(55): lr_think_time: 10.00 seconds.
+Action1.c(57): Notify: Transaction "TE_disconnect" started.
+Action1.c(61): Notify: Transaction "TE_disconnect" ended with a "Pass" status (Duration: 0.3146).
+Ending action Action1.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action1.
+Action1.c(10): Notify: Transaction "TE_connect" started.
+Action1.c(12): Notify: Transaction "TE_connect" ended with a "Stop" status (Duration: 0.7095).
+Aborting RTE vuser.
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

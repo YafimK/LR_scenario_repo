@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\test\tests\scripts\kalimanjaro
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\test\tests\scripts\kalimanjaro\\logfile.log
+c:\test\tests\scripts\kalimanjaro\\combined_kalimanjaro.c
+c:\test\tests\scripts\kalimanjaro\\pre_cci.c

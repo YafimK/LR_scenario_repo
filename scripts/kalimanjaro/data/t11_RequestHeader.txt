@@ -1,0 +1,9 @@
+GET /qsml.aspx?query=http%3A%2F%2Fkalimanjaro.hpeswlab.net%2F&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1
+Accept: */*
+Accept-Language: en-US
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: api.bing.com
+Connection: Keep-Alive
+Cookie: MUID=3A14B879822E6B1D39FDB156862E68FF; SRCHD=AF=NOFORM; SRCHUSR=DOB=20160609; SRCHHPGUSR=CW=1039&CH=537&DPR=1; SRCHUID=V=2&GUID=13B5ACA0EDE64C73AA9577FF07F2D9C7; MUIDB=3A14B879822E6B1D39FDB156862E68FF
+

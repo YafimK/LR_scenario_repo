@@ -1,0 +1,58 @@
+set func-cols 12
+
+func 1 "F1" {send <f1>}
+func 2 "F2" {send <f2>}
+func 3 "F3" {send <f3>}
+func 4 "F4" {send <f4>}
+func 5 "F5" {send <f5>}
+func 6 "F6" {send <f6>}
+func 7 "F7" {send <f7>}
+func 8 "F8" {send <f8>}
+func 9 "F9" {send <f9>}
+func 10 "F10" {send <f10>}
+func 11 "F11" {send <f11>}
+func 12 "F12" {send <f12>}
+
+set pad-rows 9
+set pad-cols 4
+
+pad 1 1 "F1" {send <f1>}
+pad 1 2 "F2" {send <f2>}
+pad 1 3 "F3" {send <f3>}
+pad 1 4 "F4" {send <f4>}
+pad 2 1 "F5" {send <f5>}
+pad 2 2 "F6" {send <f6>}
+pad 2 3 "F7" {send <f7>}
+pad 2 4 "F8" {send <f8>}
+pad 3 1 "F9" {send <f9>}
+pad 3 2 "F10" {send <f10>}
+pad 3 3 "F11" {send <f11>}
+pad 3 4 "F12" {send <f12>}
+pad 4 1 "F13" {send <f13>}
+pad 4 2 "F14" {send <f14>}
+pad 4 3 "F15" {send <f15>}
+pad 4 4 "F16" {send <f16>}
+pad 5 1 "F17" {send <f17>}
+pad 5 2 "F18" {send <f18>}
+pad 5 3 "F19" {send <f19>}
+pad 5 4 "F20" {send <f20>}
+pad 6 1 "F21" {send <f21>}
+pad 6 2 "F22" {send <f22>}
+pad 6 3 "F23" {send <f23>}
+pad 6 4 "F24" {send <f24>}
+pad 7 1 "Attn" {send <system-attn>}
+pad 7 2 "Clear" {send <clear-screen>}
+pad 7 3 "DUP" {send <dup>}
+pad 7 4 "Enter" {send <enter>}
+pad 8 1 "EOF" {send <erase-eof>}
+pad 8 2 "Input" {send <erase-input>}
+pad 8 3 "FM" {send <field-mark>}
+pad 8 4 "Insert" {send <insert>}
+pad 9 1 "PA1" {send <pa1>}
+pad 9 2 "PA2" {send <pa2>}
+pad 9 3 "Sysrq" {send <system-request>}
+pad 9 4 "Reset" {send <reset>}
+
+set pad-size 132 160
+set pad-pos 500 270
+

@@ -1,0 +1,18 @@
+[t1]
+FileName2=t1_1_logo.gif
+RawStepEndTime=1465485981377
+RequestBodyFile=t1_RequestBody.txt
+RawStepName=kalimanjaro.hpeswlab.net
+ContentType=text/html
+URL1=http://kalimanjaro.hpeswlab.net/
+URL2=http://kalimanjaro.hpeswlab.net/Images/logo.gif
+URL3=http://kalimanjaro.hpeswlab.net/Images/ganim5b.gif
+ResponseHeaderFile=t1_ResponseHeader.txt
+SnapshotXmlFile=snapshot_1.xml
+RequestHeaderFile=t1_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1465485977399
+Total=3
+StepName=Url: kalimanjaro.hpeswlab.net
+FileName1=t1.html
+FileName3=t1_0_ganim5b.gif

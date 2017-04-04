@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\test\PerfTest\scripts\different_operations
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\test\perftest\scripts\different_operations\\logfile.log
+c:\test\perftest\scripts\different_operations\\combined_different_operations.c
+c:\test\perftest\scripts\different_operations\\pre_cci.c

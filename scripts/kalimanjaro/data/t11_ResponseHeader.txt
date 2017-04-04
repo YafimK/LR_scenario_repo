@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Length: 247
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _SS=SID=3A2C6E586D0562E509A967776C6363D8; domain=.bing.com; path=/
+X-MSEdge-Ref: Ref A: 7C4D15CEC57F4D7AB989365C0B3AE1F7 Ref B: 5D0628C14F3321E627118132BEAE2658 Ref C: Thu Jun 09 08:23:11 2016 PST
+Date: Thu, 09 Jun 2016 15:23:10 GMT
+

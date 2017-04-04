@@ -1,0 +1,9 @@
+GET /WinRunner/Titanic/titanicmovie/index.htm HTTP/1.1
+Referer: http://kalimanjaro.hpeswlab.net/WinRunner/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Accept: */*
+Connection: Keep-Alive
+Host: kalimanjaro.hpeswlab.net
+
